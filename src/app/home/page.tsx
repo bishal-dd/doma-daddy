@@ -44,7 +44,7 @@ export default function HomePage() {
       </header>
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 relative overflow-hidden pl-28">
+        <section className="w-full py-12 md:py-24 lg:py-32 relative overflow-hidden md:pl-28">
           {/* Colorful background elements */}
           <div className="absolute inset-0 bg-gradient-to-br from-purple-50 via-background to-blue-50 dark:from-background dark:via-background/80 dark:to-background"></div>
 
@@ -213,7 +213,7 @@ export default function HomePage() {
         </section>
 
         {/* Featured Creators */}
-        <section className="w-full py-12 md:py-24 lg:py-32 justify-center pl-28">
+        <section className="w-full py-12 md:py-24 lg:py-32 justify-center md:pl-28">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -268,7 +268,7 @@ export default function HomePage() {
         </section>
 
         {/* How It Works */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted pl-28">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted md:pl-28">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -317,7 +317,7 @@ export default function HomePage() {
         </section>
 
         {/* Membership Tiers */}
-        <section className="w-full py-12 md:py-24 lg:py-32 pl-28">
+        <section className="w-full py-12 md:py-24 lg:py-32 md:pl-28">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -395,7 +395,7 @@ export default function HomePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 border-t pl-28">
+        <section className="w-full py-12 md:py-24 lg:py-32 border-t md:pl-28">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -419,7 +419,7 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-      <footer className="w-full border-t py-6 md:py-0 pl-28">
+      <footer className="w-full border-t py-6 md:py-0 md:pl-28">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <div className="flex items-center gap-2">
             <Heart className="h-6 w-6 text-primary" />
